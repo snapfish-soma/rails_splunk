@@ -1,0 +1,15 @@
+Processing CardsController#location (for 10.1.2.1 at 2010-09-23 09:31:37) [GET]
+  Parameters: {"locale"=>"en_US", "action"=>"location", "id"=>"us", "controller"=>"cards", "id"=>"43"}
+Rendering cards/location
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://domain.com/dir/test/?locale=en_US&id=43]
+
+
+Processing TestController#create (for 10.10.5.6 at 2010-09-23 09:31:48) [POST]
+  Parameters: {"id"=>"1", "gid"=>"12345", "locale"=>"en_US", "ip_address"=>"10.2.3.4", "geo_country"=>"ES", "controller"=>"test", "id"=>"63"}
+HTTP::GET 10.1.2.3 with /dir1/stuff1 took 13 ms
+HTTP::GET 10.1.2.3 with /dir2/stuff2 took 12 ms
+HTTP::POST http://10.1.1.5/dir3/stuff3 took 92 ms
+HTTP::POST http://10.1.1.5:1234/dir4/stuff4 took 4 ms
+HTTP::POST http://10.1.1.6:1234/dir5/stuff5 took 138 ms
+Completed in 283ms (View: 1, DB: 1) | 200 OK [http://10.1.2.1/TestController]
+

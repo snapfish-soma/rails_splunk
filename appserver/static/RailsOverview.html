@@ -1,0 +1,46 @@
+<div style="overflow:hidden; margin: 5px; min-width: 850px;">
+<div style="float:right; padding:15px; margin: 5px; background-color:#EEEEEE; border: 1px solid #A9A9A9; width: 250px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius:5px;">
+    <h2>Have a question, bug report, or feedback <br />about this app? </h2>
+    <p style="margin-top:10px; margin-bottom:13px; padding-bottom:10px;">
+    ${_('Ask a question on <strong><a href="%s">Splunk Answers</a></strong>.') % ( make_url('http://answers.splunk.com/questions/ask?tags=app-rails-splunk') ) }
+    </p>
+
+</div>
+<div style="float: left; margin-right: 20px;  width: 700px;">
+    <div style="float: left;">
+        <h1>Welcome to the Splunk for Ruby on Rails Community App</h1> 
+    </div>
+    <br style="clear:both;" />
+	<div style="float: left; margin-right: 20px; "> 
+    <h3>This app contains a set of field extractions, searches, reports, and dashboards for analyzing Ruby on Rails production log data. </h3>
+	<br style="clear:both;" />
+	<h2>The easiest way to get started is to index some sample data to see how it all works:</h2>
+	<ol style="padding-left:2px;">
+		<li>Go to the <a href="/manager/rails/data/inputs/monitor/_new?action=edit&ns=search">Manager->Data Inputs->Files and Directories</a> page </li>
+		<li>Select <strong>"Monitor a file or directory"</strong>
+		<li>Enter the directory path <strong> "$SPLUNK_HOME/etc/apps/rails/logs". </strong> There should be two files in this directory: <i>production.sample1.log</i> and <i>production.sample2.log</i></li>
+		<li>IMPORTANT: Before adding the input, <strong>select a manual sourcetype and enter "rails"</strong>. This app requires that your data is indexed with sourcetype=rails in order for the included extractions and reports to function correctly.</li>
+		<li>OPTIONAL: <a href="http://www.splunk.com/base/Documentation/Latest/admin/Setupmultipleindexes">Specify a different index</a> to index the sample data and add it to your default indexes, if you do not want the sample data to pollute your main index.
+	</ol>
+    </div>
+    <br style="clear:both;" />
+	<br style="clear:both;" />
+    <div style="float: left; margin-right: 20px;  width: 700px;"> 
+        <h2>Example dashboards/searches in this App (also be found under the "Views" and "Searches & Reports" menus)</h2>
+        <ul style="padding-left:2px;">
+	        <li>${_('<strong><a href="%s">Rails Stats</a></strong>') % ( make_url(['app', APP['id'], 'rails_stats']) ) }</li>
+	        <li>${_('<strong><a href="%s">Rails Request Overview</a></strong>') % ( make_url(['app', APP['id'], 'rails_request_overview']) ) }</li>
+        </ul>
+    </div>
+    <div style="float: left; margin-right: 20px;  width: 700px;"> 
+        <h2>Diagram of field extractions in this app:</h2>
+        <ul style="padding-left:2px;">
+	        <li>${_('<strong><a href="%s">Rails Field Extractions</a></strong>') % ( make_url(['app', APP['id'], 'rails_field_extractions']) ) }</li>
+        </ul>
+    </div>
+
+    <br style="clear:both;" />
+   </div>
+
+</div>
+

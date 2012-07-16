@@ -1,0 +1,105 @@
+10.26.2.134:5008 ^ 09:31:24 ^ Processing GamesController#index (for 92.11.241.81 at 2010-09-23 09:31:24) [GET]
+10.26.2.134:5008 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5008 ^ 09:31:24 ^   Parameters: {"format"=>"xml", "action"=>"index", "controller"=>"games", "visitor"=>"true"}
+10.26.2.134:5008 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5008 ^ 09:31:24 ^ Rendering template within layouts/application
+10.26.2.134:5008 ^ 09:31:24 ^ Completed in 0.00867 (115 reqs/sec) | Rendering: 0.00075 (8%) | DB: 0.00461 (53%) | 200 OK [http://www.lumosity.com/games.xml?visitor=true]
+
+
+10.26.2.134:5005 ^ 09:31:24 ^ Processing GamesController#show (for 92.11.241.81 at 2010-09-23 09:31:24) [GET]
+10.26.2.134:5005 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5005 ^ 09:31:24 ^   Parameters: {"format"=>"xml", "action"=>"show", "id"=>"memory-matrix", "controller"=>"games"}
+10.26.2.134:5005 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5005 ^ 09:31:24 ^ Rendering template within layouts/application
+10.26.2.134:5005 ^ 09:31:24 ^ Completed in 0.23051 (4 reqs/sec) | Rendering: 0.00079 (0%) | DB: 0.00535 (2%) | 200 OK [http://www.lumosity.com/games/memory-matrix.xml]
+
+
+10.26.2.134:5000 ^ 09:31:24 ^ Processing BrainAttributeCategoriesController#show (for 64.26.117.253 at 2010-09-23 09:31:24) [GET]
+10.26.2.134:5000 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5000 ^ 09:31:24 ^   Parameters: {"action"=>"show", "id"=>"speed", "controller"=>"brain_attribute_categories"}
+10.26.2.134:5000 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5000 ^ 09:31:24 ^ Rendering template within layouts/application
+10.26.2.134:5000 ^ 09:31:24 ^ Rendering brain_attribute_categories/show
+10.26.2.134:5000 ^ 09:31:24 ^ Completed in 0.06877 (14 reqs/sec) | Rendering: 0.05152 (74%) | DB: 0.00726 (10%) | 200 OK [http://www.lumosity.com/brain-games/speed-games]
+
+
+10.26.2.134:5007 ^ 09:31:24 ^ Processing AccountController#update (for 193.247.250.53 at 2010-09-23 09:31:24) [POST]
+10.26.2.134:5007 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5007 ^ 09:31:24 ^   Parameters: {"user"=>{"profile"=>{"education_level"=>"2", "date_of_birth_year"=>"1992", "gender"=>"m", "date_of_birth_day"=>"28", "date_of_birth_month"=>"02"}}, "protocol"=>"https", "action"=>"update", "controller"=>"account"}
+10.26.2.134:5007 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5007 ^ 09:31:24 ^ --- expiring openx targeting channel vars cache due to profile update
+10.26.2.134:5007 ^ 09:31:24 ^ Rendering template within layouts/application
+10.26.2.134:5007 ^ 09:31:24 ^ Completed in 0.27804 (3 reqs/sec) | Rendering: 0.00071 (0%) | DB: 0.02203 (7%) | 200 OK [https://www.lumosity.com/account/update]
+
+
+10.26.2.134:5007 ^ 09:31:24 ^ Processing LumosEventsController#create (for 94.212.3.189 at 2010-09-23 09:31:24) [POST]
+10.26.2.134:5007 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5007 ^ 09:31:24 ^   Parameters: {"action"=>"create", "event"=>{"name"=>"game_complete", "properties"=>{"game"=>"Word Bubbles", "mode"=>"Free Play"}}, "controller"=>"lumos_events"}
+10.26.2.134:5007 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5007 ^ 09:31:24 ^ Completed in 0.01653 (60 reqs/sec) | Rendering: 0.00105 (6%) | DB: 0.00289 (17%) | 200 OK [http://www.lumosity.com/lumos_events]
+
+
+10.26.2.134:5007 ^ 09:31:24 ^ Processing GameResultsController#create (for 76.176.121.53 at 2010-09-23 09:31:24) [POST]
+10.26.2.134:5007 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5007 ^ 09:31:24 ^   Parameters: {"format"=>"xml", "game_id"=>"word-bubbles"}
+10.26.2.134:5007 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5007 ^ 09:31:24 ^ --- expiring cache in GameResultSweeper
+10.26.2.134:5007 ^ 09:31:24 ^ ***** User [FILTERED] FINISHED GAME: Word Bubbles
+10.26.2.134:5007 ^ 09:31:25 ^ Rendering template within layouts/application
+10.26.2.134:5007 ^ 09:31:25 ^ Completed in 0.14202 (7 reqs/sec) | Rendering: 0.00066 (0%) | DB: 0.03231 (22%) | 200 OK [http://www.lumosity.com/games/word-bubbles/game_results.xml]
+
+
+10.26.2.134:5007 ^ 09:31:25 ^ Processing LandingController#index (for 72.14.199.81 at 2010-09-23 09:31:25) [GET]
+10.26.2.134:5007 ^ 09:31:25 ^   Session ID: [FILTERED]
+10.26.2.134:5007 ^ 09:31:25 ^   Parameters: {"a"=>"BTG-Scientifc_Text_Text", "kw"=>"weight lifting for beginners"}
+10.26.2.134:5007 ^ 09:31:25 ^ Cookie set: referral=328; path=/; expires=Sat, 23 Oct 2010 16:31:25 GMT
+10.26.2.134:5007 ^ 09:31:25 ^ Cookie set: referral_signup_flow=free_trial; path=/; expires=Sat, 23 Oct 2010 16:31:25 GMT
+10.26.2.134:5007 ^ 09:31:25 ^ Cookie set: ll_et_sid=24515945; path=/; expires=Sun, 23 Sep 2012 16:31:25 GMT
+10.26.2.134:5007 ^ 09:31:25 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:25 GMT
+%26referral_key%3D328; path=/; expires=Sat, 23 Oct 2010 16:31:25 GMT
+10.26.2.134:5007 ^ 09:31:25 ^ Redirected to http://www.lumosity.com/
+10.26.2.134:5007 ^ 09:31:25 ^ Completed in 0.04241 (23 reqs/sec) | DB: 0.00333 (7%) | 302 Found [http://www.lumosity.com/landing?refer=328]
+
+
+10.26.2.134:5001 ^ 09:31:24 ^ Processing ExpressCheckoutPurchasesController#create (for 71.36.188.223 at 2010-09-23 09:31:24) [POST]
+10.26.2.134:5001 ^ 09:31:24 ^   Session ID: [FILTERED]
+10.26.2.134:5001 ^ 09:31:24 ^   Parameters: {"purchase"=>{"product_id"=>"19"}, "promotion_code"=>"", "action"=>"create", "authenticity_token"=>"137bd970a58df0422c1bef4d8acc28a8126649e2", "controller"=>"express_checkout_purchases"}
+10.26.2.134:5001 ^ 09:31:24 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:24 GMT
+10.26.2.134:5001 ^ 09:31:25 ^ Completed in 0.72111 (1 reqs/sec) | Rendering: 0.00919 (1%) | DB: 0.01207 (1%) | 200 OK [https://www.lumosity.com/express_checkout_purchases]
+
+
+10.26.2.134:5001 ^ 09:31:25 ^ Processing BrainAttributeHistoriesController#show (for 66.0.118.199 at 2010-09-23 09:31:25) [GET]
+10.26.2.134:5001 ^ 09:31:25 ^   Session ID: [FILTERED]
+10.26.2.134:5001 ^ 09:31:25 ^   Parameters: {"format"=>"xml", "action"=>"show", "id"=>"visual-field", "controller"=>"brain_attribute_histories", "user_id"=>"[FILTERED]"}
+10.26.2.134:5001 ^ 09:31:25 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:25 GMT
+10.26.2.134:5001 ^ 09:31:25 ^ Rendering template within layouts/application
+10.26.2.134:5001 ^ 09:31:25 ^ Completed in 0.02980 (33 reqs/sec) | Rendering: 0.00070 (2%) | DB: 0.01429 (47%) | 200 OK [http://www.lumosity.com/users/[FILTERED]/brain_attribute_histories/visual-field.xml]
+
+
+10.26.2.134:5007 ^ 09:31:25 ^ Processing GameResultsController#create (for 98.212.117.167 at 2010-09-23 09:31:25) [POST]
+10.26.2.134:5007 ^ 09:31:25 ^   Session ID: [FILTERED]
+10.26.2.134:5007 ^ 09:31:25 ^   Parameters: {"format"=>"xml", "game_id"=>"memory-matrix"}
+10.26.2.134:5007 ^ 09:31:25 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:25 GMT
+10.26.2.134:5007 ^ 09:31:25 ^ --- expiring cache in GameResultSweeper
+10.26.2.134:5007 ^ 09:31:25 ^ ***** User [FILTERED] FINISHED GAME: Memory Matrix
+10.26.2.134:5007 ^ 09:31:25 ^ Rendering template within layouts/application
+10.26.2.134:5007 ^ 09:31:25 ^ Completed in 0.40878 (2 reqs/sec) | Rendering: 0.00071 (0%) | DB: 0.03578 (8%) | 200 OK [http://www.lumosity.com/games/memory-matrix/game_results.xml]
+
+
+10.26.2.134:5004 ^ 09:31:25 ^ Processing HistoryController#show (for 99.68.230.8 at 2010-09-23 09:31:25) [GET]
+10.26.2.134:5004 ^ 09:31:25 ^   Session ID: [FILTERED]
+10.26.2.134:5004 ^ 09:31:25 ^   Parameters: {"action"=>"show", "controller"=>"history", "user_id"=>"[FILTERED]"}
+10.26.2.134:5004 ^ 09:31:25 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:25 GMT
+10.26.2.134:5004 ^ 09:31:25 ^ Rendering template within layouts/application
+10.26.2.134:5004 ^ 09:31:25 ^ Rendering history/show
+10.26.2.134:5004 ^ 09:31:25 ^ Completed in 0.26522 (3 reqs/sec) | Rendering: 0.05921 (22%) | DB: 0.01198 (4%) | 200 OK [http://www.lumosity.com/users/[FILTERED]/history]
+
+
+10.26.2.134:5009 ^ 09:31:25 ^ Processing GameWidgetsController#show (for 99.197.134.89 at 2010-09-23 09:31:25) [GET]
+10.26.2.134:5009 ^ 09:31:25 ^   Session ID: [FILTERED]
+10.26.2.134:5009 ^ 09:31:25 ^   Parameters: {"size"=>"large", "action"=>"show", "id"=>"5", "controller"=>"game_widgets", "widget_partner_id"=>"2"}
+10.26.2.134:5009 ^ 09:31:25 ^ Cookie set: ll_et_sid=24515949; path=/; expires=Sun, 23 Sep 2012 16:31:25 GMT
+10.26.2.134:5009 ^ 09:31:25 ^ Cookie set: ll_et_sm=true; path=/; expires=Thu, 23 Sep 2010 17:01:25 GMT
+10.26.2.134:5009 ^ 09:31:25 ^ Completed in 0.01926 (51 reqs/sec) | Rendering: 0.00013 (0%) | DB: 0.00595 (30%) | 200 OK [http://www.lumosity.com/widget_partners/2/game_widgets/5?size=large]
+
+

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dashboard>
+  <label>Rails Stats</label>
+  <row>
+    <chart>
+      <searchName>Top action</searchName>
+      <title>Top action</title>
+    </chart>
+  </row>
+  <row>
+    <table>
+      <searchName>Top clients</searchName>
+      <title>Top clients</title>
+    </table>
+    <chart>
+      <searchName>Top method</searchName>
+      <title>Top method</title>
+    </chart>
+  </row>
+</dashboard>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<dashboard>
+  <label>Rails Request Overview</label>
+  <row>
+    <chart>
+      <searchName>Requests by Controller over time</searchName>
+      <title>Requests by Controller over time</title>
+      <option name="drilldown">all</option>
+    </chart>
+  </row>
+  <row>
+    <table>
+      <searchName>Request time breakdown by ControllerAction</searchName>
+      <title>Request time breakdown by ControllerAction</title>
+    </table>
+  </row>
+  <row>
+    <table>
+      <searchName>Request time by ControllerAction</searchName>
+      <title>Request time by ControllerAction</title>
+    </table>
+  </row>
+  <row>
+    <event>
+      <searchString>sourcetype=rails | head 20</searchString>
+      <title>Recent requests</title>
+      <option name="count">3</option>
+      <option name="displayRowNumbers">false</option>
+      <option name="entityName">events</option>
+      <option name="segmentation">full</option>
+      <option name="showPager">true</option>
+    </event>
+  </row>
+</dashboard>
