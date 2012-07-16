@@ -18,3 +18,5 @@ It's also recommended that you configure your Rails logs to not use ANSI colorin
 # e.g., in config/environments/staging.rb
   config.colorize_logging = false
 ```
+
+You may need to make a `.tar.gz` of this directory in order to install it properly for your Splunk server.
